@@ -43,6 +43,10 @@ table {
 }
 /* End Reset */
 
+:root{
+  --card-border-radius: 10px; 
+}
+
 #container{
   display: grid;
   grid-template: 1fr 10fr / 1fr 3fr;
@@ -117,6 +121,38 @@ a{
   grid-template-columns: 2fr 1fr;
 }
 
+#main-left-content{
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+}
+
+#main-left-content >#cards{
+  grid-area: 1 / 1 / 2 / 2 ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3vw;
+}
+
+#announcements-card{
+  background: white;
+  border-radius: var(--card-border-radius);
+}
+
+#trending-card{
+  background: white;
+  border-radius: var(--card-border-radius);
+}
+
+#main-right-content{
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 5vw;
+}
+
 
 .cards{
   display: grid;
@@ -127,5 +163,5 @@ a{
   width: 200px;
   height: 100px;
   background: white;
-  border-radius: 5px;
+  border-radius: var(--card-border-radius);
 }
