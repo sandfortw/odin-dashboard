@@ -85,13 +85,14 @@ button{
 }
 
 #header svg{
-  height: 2rem;
+  height: 2.5rem;
 }
 
 #top-line{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 3vw;
   margin-top: 1vw;
 }
 
@@ -103,7 +104,7 @@ button{
 
 #search-bar{
   width: 40vw;
-  height: 1.5vw;
+  height: 2.5rem;
   border-radius: 10px;
   background-color: rgb(221, 221, 221);
   border-width: 0;
@@ -286,7 +287,7 @@ a{
 }
 
 .card-paragraph{
-  font-size: 1.3rem;
+  font-size: 1.2vw;
   font-weight: 300;
 }
 
@@ -298,7 +299,7 @@ a{
 
 .card-title{
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   line-height: 1vh;
 }
 
