@@ -113,4 +113,19 @@ a{
 #main-content{
   background: #E2E8F0;
   grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+}
+.card{
+  width: 200px;
+  height: 100px;
+  background: white;
+  border-radius: 5px;
 }
