@@ -122,10 +122,19 @@ button{
   flex-direction: column;
   justify-content: flex-start;
   gap: 4vh;
+  padding: 1vw 0 0 1vw
 }
 
 #logo{
   font-size: 2.5rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1vw
+}
+
+#sidebar > #logo > svg{
+  height: 2.5rem;
 }
 
 #user-links,
@@ -133,6 +142,18 @@ button{
   display: flex;
   flex-direction: column;
   gap: 1vh;
+}
+
+.sidebar-link{
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  gap: 1vw
+}
+
+#sidebar svg {
+  fill: white;
+  height: 1.9rem;
 }
 
 a{
